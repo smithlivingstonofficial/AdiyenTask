@@ -1,4 +1,5 @@
-import json
+
+code = r'''import json
 import re
 import os
 import glob
@@ -120,3 +121,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+'''
+
+with open('convert.py', 'w', encoding='utf-8') as f:
+    f.write(code)
+
+print("Updated convert.py")
