@@ -5,7 +5,7 @@ import json
 BOOK_NAME = "THE PRINCIPAL UPANISADS"
 
 # Path to the processed txt file
-TXT_PATH = r"C:\Users\smith\Documents\SMITH\College\MCA\II-Semester\Internship\Adiyen\Task\B3\processed\surya_ocr_princialupanisad00radh.txt"
+TXT_PATH = r"C:\Users\smith\Documents\SMITH\College\MCA\II-Semester\Internship\Adiyen\Task\Task 2\B3\processed\surya_ocr_princialupanisad00radh.txt"
 
 with open(TXT_PATH, "r", encoding="utf-8") as f:
     text = f.read()

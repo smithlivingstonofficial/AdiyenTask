@@ -2,13 +2,13 @@ import json
 import re
 import html
 
-INPUT_FILE = "C:\\Users\\smith\\Documents\\SMITH\\College\\MCA\\II-Semester\\Internship\\Adiyen\\Task\\B3\\json\\THE PRINCIPAL UPANISADS.json"
-OUTPUT_FILE = "task2_chunked_output.json"
+INPUT_FILE = r"C:\Users\smith\Documents\SMITH\College\MCA\II-Semester\Internship\Adiyen\Task\Task 4\B7\json\Chapter.json"
+OUTPUT_FILE = "Chunk.json"
 
 CHUNK_SIZE = 2000
 OVERLAP = 400
 MIN_CHUNK_SIZE = 300  # avoid very tiny chunks
-
+    
 
 def clean_text(text):
     # unescape html entities
